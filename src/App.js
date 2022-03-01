@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import AllAbsences from "./pages/AllAbsences";
+import AbsenceView from "./pages/AbsenceView";
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
-        <Route path="/" element={<AllAbsences />}></Route>
+        <Route path="/" element={<AbsenceView />}></Route>
       </Routes>
-    </div>
+    </>
   );
 }
 
